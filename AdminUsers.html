@@ -1,205 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="styleAdmin.css" />
-  <!-- Font Awesome Cdn Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<title>Admin</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS/stylesheet.css">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=yes"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/footer (1).css">
 </head>
-<body>
-  <header class="header">
-    <div class="logo">
-      <a href="#">The Company</a>
-      <div class="search_box">
-        <input type="text" placeholder="Search Users">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-      </div>
+<header>
+  <!-- Links (sit on top) -->
+  <div class="top-menu">
+    <div class="menu-item">
+      <a href="adminProfile.html">Profile</a>
     </div>
-
-    <div class="header-icons">
-      <div class="account">
-        <img src="./mostafa.jpg" alt=" image ">
-        <h4>Mostafa Mohamed</h4>
-      </div>
+    <div class="menu-item">
+      <a href="adminProperties.html">Properties</a>
     </div>
-  </header>
-  <div class="container">
-    <nav>
-      <div class="side_navbar">
-        <span>Main Menu</span>
-        <a href="#" class="active">Profile</a>
-        <a href="#">Properties</a>
-        <a href="#">Units</a>
-        <a href="#">Users</a>
-        <a href="#">Messages</a>
-        <a href="#">Weekly Summary</a>
-        <a href="#">Top Properties</a>
-
-      </div>
-    </nav>
-
-    <div class="main-body">
-      <h2>Dashboard</h2>
-      <div class="promo_card">
-        <h1>Welcome to The Company</h1>
-        <span>This is the Admin Dashboard</span>
-        <button>Learn More</button>
-      </div>
-
-      <div class="history_lists">
-        <div class="list1">
-          <div class="row">
-            <h4>Admins</h4>
-            <a href="#">See all</a>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Email</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Seif</td>
-                <td>Nasser</td>
-                <td>Seif@miu</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Mostafa</td>
-                <td>Mohamed</td>
-                <td>Mostafa@miu</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Toka</td>
-                <td>Saeed</td>
-                <td>Toka@miu</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Aya</td>
-                <td>Magdy</td>
-                <td>Aya@miu</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Monad</td>
-                <td>Khaled</td>
-                <td>Monad@miu</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Zainab</td>
-                <td>Rafea</td>
-                <td>Zainab@miu</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="list2">
-          <div class="row">
-            <h4>Users</h4>
-            <a href="#">See all</a>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Password</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr> 
-              <tr>
-                <td>5</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr> 
-              <tr>
-                <td>6</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-              </tr> 
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <div class="menu-item">
+      <a href="adminUnits.html">Units</a>
     </div>
-
-    <div class="sidebar">
-      <h4>Top Sales</h4>
-      
-      <div class="balance">
-        <div class="info">
-          <h5>Villa Zayed</h5>
-          <span></i>30,000.00 EGP</span>
-        </div>
-      </div>
-      
-      <div class="balance">
-        <div class="info">
-          <h5>Villa New Cairo</h5>
-          <span></i>25,000.00 EGP</span>
-        </div>
-      </div>
-
-      <div class="balance">
-        <div class="info">
-          <h5>Villa New Cairo</h5>
-          <span></i>20,000.00 EGP</span>
-        </div>
-      </div>
-
-      <div class="balance">
-        <div class="info">
-          <h5>Villa October</h5>
-          <span></i>18,000.00</span>
-        </div>
-      </div>
-
-      <div class="balance">
-        <div class="info">
-          <h5>Villa New Cairo</h5>
-          <span></i>15,000.00 EGP </span>
-        </div>
-      </div>
-
+    <div class="menu-item">
+      <a href="adminUsers.html">Users</a>
+    </div>
+    <div class="menu-item">
+      <a href="adminMessages.html">Messages</a>
+    </div>
+    <div class="menu-item">
+      <a href="adminSummary.html">Weekly Summary</a>
+    </div>
+    <div class="menu-item">
+      <a href="adminTopProp.html">Top Properties</a>
     </div>
   </div>
-</body>
-</html>
 
+  
+</header>
