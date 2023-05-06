@@ -107,9 +107,9 @@ nav{
 .side_navbar a:hover{
   background: rgb(235, 235, 235);
 }
-.side_navbar .active{
+/* .side_navbar .active{
   border-left: 2px solid rgb(100, 100, 100);
-}
+} */
 
 /* Main Body Section */
 .main-body{
